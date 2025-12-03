@@ -1,0 +1,60 @@
+
+.block-title {
+    font-size: 0.9375rem;
+    color: #565656;
+    margin-bottom: 6px;
+}
+
+.plate-number-card {
+    border: 1.5px solid;
+    border-radius: 3px;
+    padding: 0 3px;
+    font-size: 0.875rem;
+    /* line-height: 1.2; */
+    width: 100%;
+
+    max-width: 138px;
+    min-height: 33px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.row-p {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+.row-p.ar {
+    line-height: 8px;  /* 57.143% */
+    font-size: 0.875rem;
+    font-family: "Boutros Ads";
+}
+
+.v-top-details {
+    display: flex;
+}
+
+.driver-avatar {
+    width: 38px;
+    height: 38px;
+    border-radius: 5px;
+    background: #f0f0f0;
+    object-fit: contain;
+}
+
+.driver-info-card .row-p {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+} 
+.v-top-details {
+    display: flex;
+    justify-content: space-between;
+}
+.driver-info-card .driver-details {
+    margin-left: 8px;
+}
+.v-d-block {
+    min-width: calc((100% / 5) - 2%);
+}

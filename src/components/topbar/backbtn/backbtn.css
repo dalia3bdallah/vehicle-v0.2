@@ -1,0 +1,11 @@
+.btn-back {
+    padding: 14px;
+    border:1px solid #CAC8C280;
+    border-radius: 0.5em;
+    color: #565656;
+    border-radius: 50%;
+}
+.btn-back svg {
+    width: 24px;
+    height: 24px;
+}

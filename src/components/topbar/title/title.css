@@ -1,0 +1,19 @@
+.page-title {
+    font-size: 2rem;
+    /* line-height: unset; */
+}
+.status {
+    font-size: 0.875rem;
+    padding: 6px 12px;
+    border-radius: 5px;
+    vertical-align: middle;
+}
+
+.status.Available {
+    background: #6BC838;
+    color: #fff;
+}
+
+.page-title span {
+    vertical-align: middle;
+}

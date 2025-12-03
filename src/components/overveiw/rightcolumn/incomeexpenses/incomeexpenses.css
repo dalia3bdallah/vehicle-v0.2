@@ -1,0 +1,49 @@
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #F5F3EB;
+}
+
+.header-filter {
+    min-width: 180px;
+    padding: 5px;
+}
+
+.header-title {
+    font-size: 1.375rem;
+}
+
+.card-header-2 {
+    display: flex;
+    padding: 15px 12px;
+    border-bottom: 1px solid #F5F3EB;
+}
+
+.block-value {
+    display: flex;
+}
+
+.block-label {
+    font-size: 0.9375rem;
+    margin-bottom: 5px;
+}
+
+.card-header-2 .col-card:first-child {
+    padding-right: 40px;
+}
+
+.card-header-2 .col-card:last-child {
+    padding-left: 40px;
+    border-left: 1px solid #EFEFEF;
+}
+
+.block-value img.rs-icon {
+    width: 13px;
+    height: 14px;
+    margin-right: 7px;
+}
+.card-income {
+    padding: 8px 0;
+    margin-bottom: 22px;
+}

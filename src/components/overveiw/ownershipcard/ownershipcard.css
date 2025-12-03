@@ -1,0 +1,29 @@
+
+.policy-number .title {
+    font-size: 0.93rem;
+    color: #565656;
+
+}
+
+.view-icon .download-icon {
+    width: 18px;
+    height: 18px;
+}
+
+.view-icon {
+    padding: 8px;
+    background: #F4F4F4;
+    width: 34px;
+    text-align: center;
+    vertical-align: middle;
+    margin: auto;
+}
+
+.file-details {
+    text-align: end;
+    margin-right: 8px;
+}
+
+.data-td {
+    display: flex;
+}
