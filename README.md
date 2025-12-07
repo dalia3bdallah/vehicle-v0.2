@@ -7,7 +7,7 @@ while matching the design visually and structurally.
 --------------------------------------------------------
 
 
-## Live Demo / Repo
+# Live Demo / Repo
 - GitHub Repository: [https://github.com/dalia3bdallah/vehicle-v0.2]
 
 - Live Demo : [https://dalia3bdallah.github.io/vehicle-v0.2]
@@ -15,7 +15,7 @@ while matching the design visually and structurally.
 --------------------------------------------------------
 
 
-## 📦 Tech Stack
+# 📦 Tech Stack
 - React
 - vite
 - JavaScript 
@@ -28,14 +28,16 @@ while matching the design visually and structurally.
 - React-router-dom
 
 --------------------------------------------------------
-## How to Run the Project
-# Install dependencies
-npm install
+# How to Run the Project
 
-# Start development server
-npm run dev
+- Install dependencies
+ >> npm install
+
+- Start development server
+ >> npm run dev
+
 --------------------------------------------------------
-## 📁 Folder Structure & Component Breakdown
+# 📁 Folder Structure & Component Breakdown
 src/
 │
 ├── components/
@@ -63,9 +65,9 @@ src/
 
 --------------------------------------------------------
 
-## style's Guide
+# style's Guide
 
-# Breakpoints 
+### Breakpoints 
 
 // Extra small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) { ... }
@@ -80,12 +82,12 @@ src/
 @media (max-width: 1199.98px) { ... }
 
 
-# fonts
+### fonts
 - main font : RadialTrial , sans-serif (optional) , size:16px 
 - secondary font : "Boutros Ads" <= not available online
 
 
-# Responsiveness
+### Responsiveness
 - Two-column layout collapses to one column on mobile/tablets.
 - Different design for top Vehicle details in mobile/tablets
 - scroll bar in tabs bar and top vehicle details bar in devices less than 1200px
