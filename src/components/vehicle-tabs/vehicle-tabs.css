@@ -30,8 +30,8 @@ a.tab.active-tab {
 }
 .tab-item {
     margin-right: 6px;
+    border-bottom: 2px solid transparent;
 }
-
 .tab-item:last-child {
     margin-right: 0;
 }
