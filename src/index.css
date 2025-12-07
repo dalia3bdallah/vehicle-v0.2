@@ -292,11 +292,14 @@ html {
         min-width: 30% !important;
         padding-bottom: 10px !important;
         margin-bottom: 10px !important;
-        margin-left: 1rem;
+        /* margin-left: 1rem; */
         white-space: nowrap;
     }
 
-
+.v-d-block:last-child {
+    border-bottom: 0 !important;
+    margin-bottom: 0 !important;
+}
 
 .v-top-details {
     display: flex;
@@ -304,7 +307,9 @@ html {
     overflow: auto;
     width: 100%;
     /* background: #f5f3eb78; */
-    padding: 10px;
+        padding: 10px;
+        border: 1px solid #f0eee7;
+        border-radius: 5px;
 }
 
 .tabs-list {
@@ -315,9 +320,7 @@ html {
     white-space: nowrap;
 }
 
-.v-top-details:hover {
-    background: #f5f3eb61;
-}
+
 /* .tabs-list {
     width: 80vw;
 

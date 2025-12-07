@@ -4,7 +4,10 @@
     border-radius: 8px;
 
 }
-
+.insurance-card:hover {
+    background: radial-gradient(#f8f6ef8f, #f5f3eb);
+    transition: background 500ms;
+}
 .subtitle {
     font-size: 0.875rem;
 }

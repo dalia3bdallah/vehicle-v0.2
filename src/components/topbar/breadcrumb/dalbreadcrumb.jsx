@@ -16,21 +16,21 @@ export default function DalBreadCrumb() {
             <Breadcrumb>
                 <BreadcrumbList>
                     <BreadcrumbItem>
-                        <BreadcrumbLink href="/">Home</BreadcrumbLink>
+                        <BreadcrumbLink href="/">Vehicles</BreadcrumbLink>
                     </BreadcrumbItem>
                     <BreadcrumbSeparator />
                     <BreadcrumbItem>
-                        <BreadcrumbLink href="/components">Components</BreadcrumbLink>
+                        <BreadcrumbLink href="/">Vehicle details</BreadcrumbLink>
                     </BreadcrumbItem>
                     <BreadcrumbSeparator />
                     <BreadcrumbItem>
-                        <BreadcrumbPage>Breadcrumb</BreadcrumbPage>
+                        <BreadcrumbPage>Chevrolet Tahoe 2025</BreadcrumbPage>
                     </BreadcrumbItem>
                 </BreadcrumbList>
             </Breadcrumb>
 
 
-            <div className="breadcrumb">
+            {/* <div className="breadcrumb">
                 <span className="crumb">
                     <a href="#">Vehicles</a>
                 </span>
@@ -40,7 +40,7 @@ export default function DalBreadCrumb() {
                 </span>
                 <span className="separator">/</span>
                 <span className="crumb current">Chevrolet Tahoe 2025</span>
-            </div>
+            </div> */}
         </>
     );
 }

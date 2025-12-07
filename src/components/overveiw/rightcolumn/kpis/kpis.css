@@ -8,6 +8,10 @@
     align-items: flex-start;
     margin-bottom: 22px;
 }
+.card-item:hover {
+    background: radial-gradient(#f8f6ef8f, #f5f3eb);
+    transition: background 500ms;
+}
 
 .icon-kpi img {
     width: 22px;
