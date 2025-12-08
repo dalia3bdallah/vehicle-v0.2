@@ -32,7 +32,7 @@ while matching the design visually and structurally.
 npm install
 
 // Start development server
- >> npm run dev
+npm run dev
 ~~~
 --------------------------------------------------------
 # 📁 Folder Structure & Component Breakdown
@@ -68,6 +68,7 @@ src/
 
 ### Breakpoints 
 
+~~~ bash
 // Extra small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) { ... }
 
@@ -79,11 +80,11 @@ src/
 
 // Large devices (desktops, less than 1200px)
 @media (max-width: 1199.98px) { ... }
-
+~~~
 
 ### fonts
 - main font : RadialTrial , sans-serif (optional) , size:16px 
-- secondary font : "Boutros Ads" <= not available online
+- Arabic font : "Boutros Ads" <= not available online
 
 
 ### Responsiveness
