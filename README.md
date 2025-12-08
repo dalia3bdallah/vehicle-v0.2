@@ -8,9 +8,9 @@ while matching the design visually and structurally.
 
 
 # Live Demo / Repo
-- GitHub Repository: [https://github.com/dalia3bdallah/vehicle-v0.2]
+- [GitHub Repository](https://github.com/dalia3bdallah/vehicle-v0.2)
 
-- Live Demo : [https://dalia3bdallah.github.io/vehicle-v0.2]
+- [Live Demo](https://dalia3bdallah.github.io/vehicle-v0.2)
 
 --------------------------------------------------------
 
@@ -20,24 +20,23 @@ while matching the design visually and structurally.
 - vite
 - JavaScript 
 - Tailwindcss
-- SHADcn-ui  - Tabs 
-             - bar chart 
-             - breadcrumbs
-- Apexcharts - Bar chart
+- SHADcn-ui  ( Tabs - bar chart - breadcrumbs )
+- Apexcharts ( Bar chart )
 - Dummy data            
 - React-router-dom
 
 --------------------------------------------------------
 # How to Run the Project
+~~~ bash
+// Install dependencies
+npm install
 
-- Install dependencies
- >> npm install
-
-- Start development server
+// Start development server
  >> npm run dev
-
+~~~
 --------------------------------------------------------
 # 📁 Folder Structure & Component Breakdown
+~~~ bash
 src/
 │
 ├── components/
@@ -62,7 +61,7 @@ src/
 │
 ├── App.jsx
 └── Index.jsx
-
+~~~
 --------------------------------------------------------
 
 # style's Guide
